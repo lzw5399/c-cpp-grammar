@@ -13,7 +13,7 @@ int main() {
     printf("double占用字节数, %llu \n", sizeof(double));
     printf("long double占用字节数, %llu \n", sizeof(long double));
 
-    // 布尔
+    // 布尔：全零为真。否则为假
     _Bool b1 = 1;
     int bo = 1;
     bo = "ewew";
