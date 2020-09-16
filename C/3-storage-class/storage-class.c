@@ -22,4 +22,6 @@ int main() {
     }
     int a = 122;
     printf("%d", a);
+
+    return 0;
 }

@@ -16,5 +16,7 @@ int main() {
     const double CONST3 = 3.1415;
 
     printf("%s, %d, %f", CONST1, CONST2, CONST3);
+
+    return 0;
 }
 
