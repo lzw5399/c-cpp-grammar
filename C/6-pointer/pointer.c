@@ -1,10 +1,10 @@
-#include <stdio.h>
-
 /**
  * @Author: lzw5399
  * @Date: 2020/9/16 23:29
  * @Desc: 指针
  */
+
+#include <stdio.h>
 
 void nullPointerDemo();
 
