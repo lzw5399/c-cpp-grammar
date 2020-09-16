@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <limits.h>
 
+int add(int i, int i1);
+
 int main() {
     // 整形
     printf("int占用字节数, %llu \n", sizeof(int)); // 根据计算机的操作系统，有可能是short或者long
@@ -22,14 +24,17 @@ int main() {
     }
 
     bo = "0";
-    if (bo){
+    if (bo) {
         printf("这尼玛也行？\n");
     }
+
+    int sum = add(2, 3);
+    printf("%d", sum);
 
     return 0;
 }
 
-enum Gender {
-    Male,
-    Female
-};
+// 方法
+int add(int num1, int num2) {
+    return num1 + num2;
+}
