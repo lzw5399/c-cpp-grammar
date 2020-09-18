@@ -4,7 +4,8 @@ project(c_cpp_grammar)
 set(CMAKE_CXX_STANDARD 11)
 
 #cpp
-add_executable(cpp-hello cpp/hello.cpp)
+add_executable(cpp-hello cpp/1-hello/hello.cpp)
+add_executable(cpp-string cpp/2-string/string.cpp)
 
 #c
 add_executable(c-hello c/1-bytes/hello.c)
